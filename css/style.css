@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+}
+
+/* header */
+header{
+}
+
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#headerpart1{
+    display: flex;
+    justify-items: center;
+}
+
+#headerul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.hduli{
+    margin-right: 20px;
+}
+
+#hdlogo{
+    display: flex;
+    align-self: center;
+    height: 60px;
+}
+
+#headerpart2{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+#hdsettings{
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#mncontent{
+    background-color: grey;
+    height: 750px;
+    width: 50%;
+}
+
+#mnhd{
+    display: flex;
+
+    width: 100%;
+    background-color: white;
+}
+
+#mnhdDATE{
+    display: flex;
+    align-items: center;
+    margin-right: 175px;
+    margin-left: 10px;
+}
+
+#mmhdlookup{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#mnhdCURRENTEVENTS{
+    display: flex;
+    align-items: center;
+}
+.mnhdCURRENTEVENTSli{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    align-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+#mninfo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#mncon1{
+    width: 65%;
+    height: 100%;
+}
+
+#mncon2{
+    width: 35%;
+    height: 100%;
+}
+
+#headitem{
+    width: 90%;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#headitemimg{
+    border-radius: 10px;
+    width: 100%;
+}
+#headitemtxth2{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#currentnieuws{
+
+}
+
+#currentnieuwsul{
+
+}
+.currentnieuwsli{
+    margin-bottom: 10px;   
+}

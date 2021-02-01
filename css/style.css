@@ -1,13 +1,16 @@
 body{
     margin: 0px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
 header{
+    background-color: white;
 }
 
 #header{
-    height: 100px;
+    height: 75px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,7 +29,9 @@ header{
 }
 
 .hduli{
-    margin-right: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 #hdlogo{
@@ -38,7 +43,7 @@ header{
 #headerpart2{
     display: flex;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 50px;
 }
 
 #hdsettings{
@@ -47,17 +52,48 @@ header{
     height: 20px;
 }
 
+#Economie{
+    color:rgb(65, 125, 255);
+}
+#Sport{
+    color:rgb(255, 0, 0);
+}
+#Tech{
+    color:rgb(77, 11, 184);
+}
+#MediaenCultuur{
+    color:rgb(248, 115, 38);
+}
+#Achterklap{
+    color:rgb(129, 59, 156);
+}
+
+#iconhdp2left{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#iconhdp2right{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#meericonhd{
+    margin-left: 5px;
+    font-size: 12px;
+}
 /* main */
 main{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 #mncontent{
-    background-color: grey;
+    background-color: white;
     height: 750px;
-    width: 50%;
+    width: 55%;
 }
 
 #mnhd{
@@ -70,8 +106,14 @@ main{
 #mnhdDATE{
     display: flex;
     align-items: center;
-    margin-right: 175px;
+    margin-right: 60px;
     margin-left: 10px;
+    width: 500px;
+}
+
+#date{
+    font-size: 13px;
+    font-weight: bold;
 }
 
 #mmhdlookup{
@@ -83,16 +125,33 @@ main{
 #mnhdCURRENTEVENTS{
     display: flex;
     align-items: center;
+    margin-left: 30px;
+    padding: 0px;
 }
 .mnhdCURRENTEVENTSli{
     display: flex;
     flex-direction: column;
-    margin-right: 15px;
+    margin-right: 17px;
     align-content: center;
 }
+
+#contenttype{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .icon{
     display: flex;
     justify-content: center;
+}
+
+.mnhdtexticons{
+    display: flex;
+}
+
+#mnhdtexticon{
+    margin-left: 5px;
 }
 
 #mninfo{
@@ -112,7 +171,7 @@ main{
 }
 
 #headitem{
-    width: 90%;
+    width: 85%;
     margin-left: 10px;
     position: relative;
     text-align: center;
@@ -134,8 +193,70 @@ main{
 }
 
 #currentnieuwsul{
+    padding-left: 30px;
+    list-style-image: url(http://localhost/GitHub/-9-CSS-Skills/img/arrowright.png);
 
 }
 .currentnieuwsli{
     margin-bottom: 10px;   
+}
+
+#Netbinnen{
+    display: flex;
+    align-content: center;
+    background-color: black;
+    width: 130px;
+    height: 25px;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#iconnetbinnen{
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+}
+
+#Netbinnenp{
+    display: flex;
+    align-self: center;
+    margin: 0px;
+}
+
+#recentheadlines{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+#recentnieuws{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#rtnwste{
+    margin-right: 20px;
+    color: grey;
+}
+
+#rtnwstxt{
+    width: 250px;
+}
+
+#rtnwicon{
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+}
+
+#mncon2ad{
+    margin-left: 15px;
+    height: 100%;
+    width: 87%;
+    background-color: black;
 }
